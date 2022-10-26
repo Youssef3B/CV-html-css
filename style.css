@@ -19,6 +19,21 @@ section{
     height: auto;
     transition: 0.4s ease;
 }
+@media print {
+    section {
+        width: 115%;
+        margin: 0;
+        border: none;
+    }
+    .education_content_right{
+        width: 400px;
+        margin-right: 120px;
+    }
+    .work-experience-content-right{
+        width: 400px;
+        margin-right: 120px;
+    }
+}
 section:hover{
     transform: scale(1.02);
 }
