@@ -21,17 +21,26 @@ section{
 }
 @media print {
     section {
-        width: 115%;
-        margin: 0;
-        border: none;
+        width: 113%;
+        margin-left: -50px;
+        margin-top: 0;
+        
     }
-    .education_content_right{
+    /* .education_content_right{
         width: 400px;
         margin-right: 120px;
     }
     .work-experience-content-right{
         width: 400px;
         margin-right: 120px;
+    } */
+    .left_cv{
+        width: 30%;
+        
+    }
+    .right_cv{
+        max-width: 70%;
+        margin-right: 50px;
     }
 }
 section:hover{
