@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: cornsilk;
+}
+section{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-top: 80px;
+    border-left: 40px solid #100153;
+    height: 120vh;
+    transition: 0.4s ease;
+}
+section:hover{
+    transform: scale(1.02);
+}
+section img{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.left_cv{
+    background-color: rgb(223, 223, 223);
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.left_cv h1{
+    color: #100153;
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.left_cv .personal_info{
+    margin-top: 20px;
+    transition: 0.6s ease-in;
+}
+.left_cv .personal_info:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px;
+}
+.left_cv .personal_info h3{
+    color: #100153;
+    font-weight: 100;
+    font-size: 28px;
+}
+.left_cv .personal_info h4{
+    color: #100153;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #100153 ;
+}
+.left_cv .personal_info p{
+    color: rgb(74, 74, 74);
+    font-size: 20px;
+    padding-bottom: 22px;
+    margin-top: 8px;
+    cursor: pointer;   
+}
+.left_cv .personal_info p:hover{
+    color: rgb(34, 169, 210);
+}
+.left_cv .personal_info i{
+    color: #100153;
+    margin-right: 10px;
+}
+.languages{
+    transition: 1s;
+}
+.languages:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px; 
+}
+.languages h4{
+    color: #100153;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #100153 ;
+}
+.languages ul{
+    margin-left: 40px;
+    line-height: 1.7;
+    color: rgb(37, 37, 37);
+    margin-bottom: 40px;
+}
+.personal_qualities{
+    transition: 0.6s;
+}
+.personal_qualities:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px; 
+}
+.personal_qualities h4{
+    font-size: 22px;
+    color: #100153;
+    font-weight: 600;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #100153 ;
+}
+.personal_qualities ul{
+    margin-left: 40px;
+    line-height: 1.7;
+    color: rgb(37, 37, 37);
+    margin-bottom: 40px;
+}
+.hobbies_and_interests h4{
+    font-size: 22px;
+    color: #100153;
+    font-weight: 600;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #100153 ;
+}
+.hobbies_and_interests p{
+    color: rgb(74, 74, 74);
+    font-size: 20px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    cursor: pointer; 
+    text-decoration: none;
+    
+    
+}
+.hobbies_and_interests p:hover{
+    color: rgb(34, 169, 210);
+}
+.hobbies_and_interests i{
+    color: #100153;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.hobbies_and_interests{
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+}
+.hobbies_and_interests:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px;
+}
+.right_cv{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.right_cv .profile{
+    transition: 0.6s;
+    margin-top: 20px;
+}
+.right_cv .profile h4, .education h4, .work-experience h3, .skills h4{
+    color: #100153;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #100153;
+}
+.right_cv .profile p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+.education_content{
+    display: flex;
+}
+.education_content_left{
+    width: 300px;
+}
+.education_content_right h3{
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+}
+.education_content_right a{
+    color: black;
+    text-decoration: none;
+}
+.education_content_right a:hover{
+    color: rgb(34, 169, 210);
+}
+.education_content_right h5{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+.education_content_right ul{
+    margin-left: 30px;
+    line-height: 1.7;
+}
+.education2{
+    display: flex;
+    margin-top: 20px;
+}
+.education2_left{
+    width: 210px;
+}
+.education2_right p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.education2_right a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.education2_right a:hover{
+    color: rgb(34, 169, 210);
+}
+.work-experience-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7;
+}
+.work-experience-content-right h5{
+    font-size: 19px;
+}
+.work-experience-content-left{
+    width: 300px;
+}
+.work-experience-content-left p{
+    font-size: 20px;
+}
+.skills ul{
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.profile, .education, .work-experience, .skills{
+    transition: 0.6s;
+}
+.skills:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 14px;
+}
+.profile:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1;
+    transform: scale(1.02);
+}
+.education:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1;
+    transform: scale(1.02);
+}
+.work-experience:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 1;
+    transform: scale(1.02);
+}
