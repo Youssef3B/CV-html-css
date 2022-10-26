@@ -16,7 +16,7 @@ section{
     border-radius: 10px;
     margin-top: 80px;
     border-left: 40px solid #100153;
-    height: 120vh;
+    height: auto;
     transition: 0.4s ease;
 }
 section:hover{
@@ -50,6 +50,7 @@ section img{
 .left_cv .personal_info:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 14px;
+    border-radius: 8px;
 }
 .left_cv .personal_info h3{
     color: #100153;
@@ -83,6 +84,7 @@ section img{
 .languages:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 14px; 
+    border-radius: 8px;
 }
 .languages h4{
     color: #100153;
@@ -104,6 +106,7 @@ section img{
 .personal_qualities:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 14px; 
+    border-radius: 8px;
 }
 .personal_qualities h4{
     font-size: 22px;
@@ -153,6 +156,7 @@ section img{
 .hobbies_and_interests:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 14px;
+    border-radius: 8px;
 }
 .right_cv{
     padding-left: 20px;
@@ -250,19 +254,23 @@ section img{
 .skills:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 14px;
+    border-radius: 8px;
 }
 .profile:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 1;
     transform: scale(1.02);
+    border-radius: 8px;
 }
 .education:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 1;
     transform: scale(1.02);
+    border-radius: 8px;
 }
 .work-experience:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding: 1;
     transform: scale(1.02);
+    border-radius: 8px;
 }
